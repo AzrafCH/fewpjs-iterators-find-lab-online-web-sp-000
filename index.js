@@ -5,6 +5,6 @@ function testFunc() {
 }
 
 function superbowlWin(arr) {
-  let newArr = arr.find(w => "W")
+  let newArr = arr.find(w => w.result == "W")
   return newArr
 }
