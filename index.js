@@ -5,10 +5,6 @@ function testFunc() {
 }
 
 function superbowlWin(arr) {
-  if(arr.find(r => "W")) {
-    return arr
-  } else {
-    return "undefined"
-  }
+  let newArr = arr.find(w => "W")
+  return newArr
 }
- 
