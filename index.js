@@ -5,5 +5,10 @@ function testFunc() {
 }
 
 function superbowlWin(arr) {
-  return arr.find(r => "W")
+  if(arr.find(r => "W")) {
+    return arr
+  } else {
+    return "undefined"
+  }
 }
+ 
